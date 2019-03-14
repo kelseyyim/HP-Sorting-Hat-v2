@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952B36BB22376D860056EE69 /* hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 952B36BA22376D850056EE69 /* hat.png */; };
+		952B36BD2237901E0056EE69 /* foo.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 952B36BC2237901E0056EE69 /* foo.rtf */; };
+		952B36C222386A720056EE69 /* gryffindor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 952B36BE22386A720056EE69 /* gryffindor.jpg */; };
+		952B36C322386A720056EE69 /* ravenclaw.png in Resources */ = {isa = PBXBuildFile; fileRef = 952B36BF22386A720056EE69 /* ravenclaw.png */; };
+		952B36C422386A720056EE69 /* hufflepuff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 952B36C022386A720056EE69 /* hufflepuff.jpg */; };
+		952B36C522386A720056EE69 /* slytherin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 952B36C122386A720056EE69 /* slytherin.jpg */; };
+		952B36C62238CC830056EE69 /* BOOTERFF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E489EC222DF6140004AEF4 /* BOOTERFF.ttf */; };
+		952B36C72238CC880056EE69 /* HARRYP__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 95E489EB222DF56B0004AEF4 /* HARRYP__.TTF */; };
+		952B36C92238DB600056EE69 /* paper_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 952B36C82238DB600056EE69 /* paper_background.jpg */; };
+		952B36CB2238DCE50056EE69 /* floating harry potter.gif in Resources */ = {isa = PBXBuildFile; fileRef = 952B36CA2238DCE50056EE69 /* floating harry potter.gif */; };
+		952B36CD2238EC470056EE69 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B36CC2238EC470056EE69 /* WebViewController.swift */; };
+		953BB3E5222DE70A00BC0E7F /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953BB3E4222DE70A00BC0E7F /* QuestionViewController.swift */; };
+		95A838BD2239E22E0007706B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A838BC2239E22E0007706B /* Assets.xcassets */; };
 		95DCA4BF222786BA0055E9D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCA4BE222786BA0055E9D1 /* AppDelegate.swift */; };
 		95DCA4C1222786BA0055E9D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCA4C0222786BA0055E9D1 /* ViewController.swift */; };
 		95DCA4C4222786BA0055E9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DCA4C2222786BA0055E9D1 /* Main.storyboard */; };
-		95DCA4C6222786C30055E9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DCA4C5222786C30055E9D1 /* Assets.xcassets */; };
-		95DCA4C9222786C30055E9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DCA4C7222786C30055E9D1 /* LaunchScreen.storyboard */; };
 		95DCA4D4222786C40055E9D1 /* HP_Sorting_HatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCA4D3222786C40055E9D1 /* HP_Sorting_HatTests.swift */; };
 		95DCA4DF222786C40055E9D1 /* HP_Sorting_HatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCA4DE222786C40055E9D1 /* HP_Sorting_HatUITests.swift */; };
+		95E489EF222DF6F60004AEF4 /* great_hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95E489EE222DF6F60004AEF4 /* great_hall.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9505763D2239B8A500E93D6C /* HP Sorting Hat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HP Sorting Hat.entitlements"; sourceTree = "<group>"; };
+		952B36BA22376D850056EE69 /* hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hat.png; path = ../../../../../Documents/hat.png; sourceTree = "<group>"; };
+		952B36BC2237901E0056EE69 /* foo.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = foo.rtf; sourceTree = "<group>"; };
+		952B36BE22386A720056EE69 /* gryffindor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gryffindor.jpg; path = ../../../../../Desktop/gryffindor.jpg; sourceTree = "<group>"; };
+		952B36BF22386A720056EE69 /* ravenclaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ravenclaw.png; path = ../../../../../Desktop/ravenclaw.png; sourceTree = "<group>"; };
+		952B36C022386A720056EE69 /* hufflepuff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hufflepuff.jpg; path = ../../../../../Desktop/hufflepuff.jpg; sourceTree = "<group>"; };
+		952B36C122386A720056EE69 /* slytherin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = slytherin.jpg; path = ../../../../../Desktop/slytherin.jpg; sourceTree = "<group>"; };
+		952B36C82238DB600056EE69 /* paper_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = paper_background.jpg; path = ../../../../../Desktop/paper_background.jpg; sourceTree = "<group>"; };
+		952B36CA2238DCE50056EE69 /* floating harry potter.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "floating harry potter.gif"; path = "../../../../../Desktop/floating harry potter.gif"; sourceTree = "<group>"; };
+		952B36CC2238EC470056EE69 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		953BB3E4222DE70A00BC0E7F /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		95A838BC2239E22E0007706B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95DCA4BB222786BA0055E9D1 /* HP Sorting Hat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP Sorting Hat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DCA4BE222786BA0055E9D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95DCA4C0222786BA0055E9D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95DCA4C3222786BA0055E9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		95DCA4C5222786C30055E9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		95DCA4C8222786C30055E9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95DCA4CA222786C30055E9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95DCA4CF222786C40055E9D1 /* HP Sorting HatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HP Sorting HatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DCA4D3222786C40055E9D1 /* HP_Sorting_HatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_Sorting_HatTests.swift; sourceTree = "<group>"; };
@@ -47,6 +69,9 @@
 		95DCA4DA222786C40055E9D1 /* HP Sorting HatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HP Sorting HatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DCA4DE222786C40055E9D1 /* HP_Sorting_HatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_Sorting_HatUITests.swift; sourceTree = "<group>"; };
 		95DCA4E0222786C40055E9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95E489EB222DF56B0004AEF4 /* HARRYP__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = HARRYP__.TTF; path = ../../../../../Downloads/harry_p/HARRYP__.TTF; sourceTree = "<group>"; };
+		95E489EC222DF6140004AEF4 /* BOOTERFF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BOOTERFF.ttf; path = ../../../../../Downloads/booter/BOOTERFF.ttf; sourceTree = "<group>"; };
+		95E489EE222DF6F60004AEF4 /* great_hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = great_hall.jpg; path = ../../../../../Desktop/great_hall.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +102,7 @@
 		95DCA4B2222786B90055E9D1 = {
 			isa = PBXGroup;
 			children = (
+				952B36BC2237901E0056EE69 /* foo.rtf */,
 				95DCA4BD222786BA0055E9D1 /* HP Sorting Hat */,
 				95DCA4D2222786C40055E9D1 /* HP Sorting HatTests */,
 				95DCA4DD222786C40055E9D1 /* HP Sorting HatUITests */,
@@ -97,12 +123,16 @@
 		95DCA4BD222786BA0055E9D1 /* HP Sorting Hat */ = {
 			isa = PBXGroup;
 			children = (
+				9505763D2239B8A500E93D6C /* HP Sorting Hat.entitlements */,
+				95A838BC2239E22E0007706B /* Assets.xcassets */,
+				95E489ED222DF6D20004AEF4 /* images */,
+				95E489EA222DF50D0004AEF4 /* fonts */,
 				95DCA4BE222786BA0055E9D1 /* AppDelegate.swift */,
+				952B36CC2238EC470056EE69 /* WebViewController.swift */,
 				95DCA4C0222786BA0055E9D1 /* ViewController.swift */,
 				95DCA4C2222786BA0055E9D1 /* Main.storyboard */,
-				95DCA4C5222786C30055E9D1 /* Assets.xcassets */,
-				95DCA4C7222786C30055E9D1 /* LaunchScreen.storyboard */,
 				95DCA4CA222786C30055E9D1 /* Info.plist */,
+				953BB3E4222DE70A00BC0E7F /* QuestionViewController.swift */,
 			);
 			path = "HP Sorting Hat";
 			sourceTree = "<group>";
@@ -123,6 +153,30 @@
 				95DCA4E0222786C40055E9D1 /* Info.plist */,
 			);
 			path = "HP Sorting HatUITests";
+			sourceTree = "<group>";
+		};
+		95E489EA222DF50D0004AEF4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				95E489EC222DF6140004AEF4 /* BOOTERFF.ttf */,
+				95E489EB222DF56B0004AEF4 /* HARRYP__.TTF */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		95E489ED222DF6D20004AEF4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				952B36CA2238DCE50056EE69 /* floating harry potter.gif */,
+				952B36C82238DB600056EE69 /* paper_background.jpg */,
+				952B36BE22386A720056EE69 /* gryffindor.jpg */,
+				952B36C022386A720056EE69 /* hufflepuff.jpg */,
+				952B36BF22386A720056EE69 /* ravenclaw.png */,
+				952B36C122386A720056EE69 /* slytherin.jpg */,
+				952B36BA22376D850056EE69 /* hat.png */,
+				95E489EE222DF6F60004AEF4 /* great_hall.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +247,14 @@
 				TargetAttributes = {
 					95DCA4BA222786B90055E9D1 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 					95DCA4CE222786C40055E9D1 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,9 +291,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95DCA4C9222786C30055E9D1 /* LaunchScreen.storyboard in Resources */,
-				95DCA4C6222786C30055E9D1 /* Assets.xcassets in Resources */,
+				952B36C422386A720056EE69 /* hufflepuff.jpg in Resources */,
+				952B36C92238DB600056EE69 /* paper_background.jpg in Resources */,
+				952B36C522386A720056EE69 /* slytherin.jpg in Resources */,
+				952B36C322386A720056EE69 /* ravenclaw.png in Resources */,
+				952B36BD2237901E0056EE69 /* foo.rtf in Resources */,
 				95DCA4C4222786BA0055E9D1 /* Main.storyboard in Resources */,
+				95A838BD2239E22E0007706B /* Assets.xcassets in Resources */,
+				95E489EF222DF6F60004AEF4 /* great_hall.jpg in Resources */,
+				952B36C62238CC830056EE69 /* BOOTERFF.ttf in Resources */,
+				952B36CB2238DCE50056EE69 /* floating harry potter.gif in Resources */,
+				952B36C72238CC880056EE69 /* HARRYP__.TTF in Resources */,
+				952B36BB22376D860056EE69 /* hat.png in Resources */,
+				952B36C222386A720056EE69 /* gryffindor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +330,8 @@
 			files = (
 				95DCA4C1222786BA0055E9D1 /* ViewController.swift in Sources */,
 				95DCA4BF222786BA0055E9D1 /* AppDelegate.swift in Sources */,
+				953BB3E5222DE70A00BC0E7F /* QuestionViewController.swift in Sources */,
+				952B36CD2238EC470056EE69 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +373,6 @@
 				95DCA4C3222786BA0055E9D1 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		95DCA4C7222786C30055E9D1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95DCA4C8222786C30055E9D1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8NS76665K2;
 				INFOPLIST_FILE = "HP Sorting Hat/Info.plist";
@@ -439,8 +506,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kelseyyim.HP-Sorting-Hat";
+				PRODUCT_BUNDLE_IDENTIFIER = kelseyyim.sorting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +518,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8NS76665K2;
 				INFOPLIST_FILE = "HP Sorting Hat/Info.plist";
@@ -457,8 +526,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "kelseyyim.HP-Sorting-Hat";
+				PRODUCT_BUNDLE_IDENTIFIER = kelseyyim.sorting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
