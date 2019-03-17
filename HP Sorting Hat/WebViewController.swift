@@ -17,7 +17,7 @@ class WebViewController : UIViewController, WKNavigationDelegate{
         let url = URL(string:urlstring)!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
-        homeButton.center = CGPoint(x: 200, y: 200)
+        homeButton.center = CGPoint(x: 100, y: 100)
         webView.addSubview(homeButton)
 //        view?.addSubview(homeLabel)
         
