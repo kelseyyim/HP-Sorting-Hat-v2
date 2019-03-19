@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		951A516F223DC41000907239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951A516D223DC3F900907239 /* Assets.xcassets */; };
-		952B36C62238CC830056EE69 /* BOOTERFF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E489EC222DF6140004AEF4 /* BOOTERFF.ttf */; };
-		952B36C72238CC880056EE69 /* HARRYP__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 95E489EB222DF56B0004AEF4 /* HARRYP__.TTF */; };
 		952B36CD2238EC470056EE69 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952B36CC2238EC470056EE69 /* WebViewController.swift */; };
 		953BB3E5222DE70A00BC0E7F /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953BB3E4222DE70A00BC0E7F /* QuestionViewController.swift */; };
 		954D39EA223C79BF000FEF84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DCA4C2222786BA0055E9D1 /* Main.storyboard */; };
+		957532D3224066AC001A3B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 951A516D223DC3F900907239 /* Assets.xcassets */; };
+		957532D522406808001A3B5D /* BOOTERFF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 957532D422406808001A3B5D /* BOOTERFF.ttf */; };
+		957532D72240684C001A3B5D /* HARRYP__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 957532D62240684C001A3B5D /* HARRYP__.TTF */; };
 		95DCA4BF222786BA0055E9D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCA4BE222786BA0055E9D1 /* AppDelegate.swift */; };
 		95DCA4C1222786BA0055E9D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCA4C0222786BA0055E9D1 /* ViewController.swift */; };
 		95DCA4D4222786C40055E9D1 /* HP_Sorting_HatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCA4D3222786C40055E9D1 /* HP_Sorting_HatTests.swift */; };
@@ -37,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		951A516D223DC3F900907239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "HP Sorting Hat/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		951A516D223DC3F900907239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		952B36CC2238EC470056EE69 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		953BB3E4222DE70A00BC0E7F /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		957532D422406808001A3B5D /* BOOTERFF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BOOTERFF.ttf; sourceTree = "<group>"; };
+		957532D62240684C001A3B5D /* HARRYP__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = HARRYP__.TTF; sourceTree = "<group>"; };
 		95DCA4BB222786BA0055E9D1 /* HP Sorting Hat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HP Sorting Hat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DCA4BE222786BA0055E9D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95DCA4C0222786BA0055E9D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +53,6 @@
 		95DCA4DA222786C40055E9D1 /* HP Sorting HatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HP Sorting HatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DCA4DE222786C40055E9D1 /* HP_Sorting_HatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HP_Sorting_HatUITests.swift; sourceTree = "<group>"; };
 		95DCA4E0222786C40055E9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95E489EB222DF56B0004AEF4 /* HARRYP__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = HARRYP__.TTF; path = ../../../../../Downloads/harry_p/HARRYP__.TTF; sourceTree = "<group>"; };
-		95E489EC222DF6140004AEF4 /* BOOTERFF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BOOTERFF.ttf; path = ../../../../../Downloads/booter/BOOTERFF.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +136,8 @@
 		95E489EA222DF50D0004AEF4 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				95E489EC222DF6140004AEF4 /* BOOTERFF.ttf */,
-				95E489EB222DF56B0004AEF4 /* HARRYP__.TTF */,
+				957532D422406808001A3B5D /* BOOTERFF.ttf */,
+				957532D62240684C001A3B5D /* HARRYP__.TTF */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -255,9 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				954D39EA223C79BF000FEF84 /* Main.storyboard in Resources */,
-				952B36C62238CC830056EE69 /* BOOTERFF.ttf in Resources */,
-				951A516F223DC41000907239 /* Assets.xcassets in Resources */,
-				952B36C72238CC880056EE69 /* HARRYP__.TTF in Resources */,
+				957532D72240684C001A3B5D /* HARRYP__.TTF in Resources */,
+				957532D522406808001A3B5D /* BOOTERFF.ttf in Resources */,
+				957532D3224066AC001A3B5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
